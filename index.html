@@ -1,0 +1,203 @@
+<!DOCTYPE html>
+<html lang="fr">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./style/style.css" />
+    <title>Accueill-Agence de voyage à Madagascar</title>
+  </head>
+  <body>
+    <header class="header">
+      <button id="btn_fleche" class="icone"></button>
+      <div class="header-search">
+        <label for="search"><i class="icone icone-search"></i></label>
+        <input type="search" name="bouton de recherche" id="search" />
+        <button id="btn_search">Recherche</button>
+      </div>
+      <div></div>
+    </header>
+    <nav class="nav">
+      <div class="nav-header">
+        <h1 class="icone nav-title">IDEE DE VOYAGE</h1>
+      </div>
+
+      <div class="drop-down">
+        <button id="btnDropDown">
+          <span class="drop zone icone">Les Zones</span>
+          <span class="arrow1 icone"></span>
+        </button>
+        <div class="bloc-links">
+          <ul>
+            <li><a href="#">Parc d'isalo</a></li>
+            <li><a href="#">Parc Ranomafana</a></li>
+            <li><a href="#">Chutte de la Lily</a></li>
+            <li><a href="#">Eau froide</a></li>
+            <li><a href="#">Lac tritriva</a></li>
+            <li><a href="#">Ile Nosy Be</a></li>
+            <li><a href="#">Majunga</a></li>
+            <li><a href="#">Ile Sainte-marie</a></li>
+          </ul>
+        </div>
+      </div>
+
+      <div class="drop-down">
+        <div class="no-drop reserve icone">Reservation</div>
+      </div>
+
+      <div class="drop-down">
+        <button id="btnDrop">
+          <span class="drop propos icone" id="span2">A propos</span>
+          <span class="arrow2 icone" id="span2"></span>
+        </button>
+        <div id="bloc_links">
+          <ul>
+            <li id="btnSponsor"><a href="#">Sponsor</a></li>
+            <li><a href="#">Exposition</a></li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+    <main class="main">
+      <div class="voyage-bloc">
+        <section class="section-left">
+          <div class="main-text">
+            <span class="slogan">Malagasy Tours</span> vous propose avant tout
+            voyages sur mesure à Madagascar, Lorem ipsum dolor sit amet
+            consectetur adipisicing elit. Modi eligendi iusto illo! Dolores
+            tempora, sunt ullam rerum dolore, temporibus architecto atque iusto
+            quam, debitis asperiores maiores accusantium ea dolorum. Lorem ipsum
+            dolor sit amet consectetur adipisicing elit. Fugit quia, niseveniet
+            nemo? Reprehenderit odio vel, expedita animi ipsum enim?
+            <br />
+            <strong>Réservez-vous maintenant !</strong> <br />
+            Si vous manquez d'idées, voici quelques idées de voyages à
+            personaliser.
+          </div>
+          <div class="zone-liste">
+            <h2>Compare les itinéraires et points forts</h2>
+            <div class="place isaolo">
+              <div class="zone-text">
+                <h3>Parc Isalo</h3>
+                <p>Un massif montagneux</p>
+              </div>
+            </div>
+
+            <div class="place ranomafana">
+              <div class="zone-text">
+                <h3>Parc Ranomafana</h3>
+                <p>De l'eau chaude</p>
+              </div>
+            </div>
+
+            <div class="place froide">
+              <div class="zone-text">
+                <h3>Eau froide</h3>
+                <p>La mer est vaste</p>
+              </div>
+            </div>
+
+            <div class="place tritriva">
+              <div class="zone-text">
+                <h3>Chute de la lily</h3>
+                <p>Lac le plus populaire</p>
+              </div>
+            </div>
+
+            <div class="place nosy-Be">
+              <div class="zone-text">
+                <h3>Ile de Nosy Be</h3>
+                <p>Basta lion</p>
+              </div>
+            </div>
+          </div>
+        </section>
+        <section class="section-right">
+          <div class="disposition">
+            <h3 class="icone hotel">Hotels à disposition</h3>
+            <div class="sary-hotel" id="carouselTB"></div>
+          </div>
+          <div class="disposition">
+            <h3 class="icone voiture">Locations des voitures</h3>
+            <div class="sary-voiture" id="carouselLR"></div>
+          </div>
+        </section>
+      </div>
+
+      <div class="sponsor">
+        <div class="sponsor-title">
+          <p class="title">A propos de Nous et Notre Sponsors</p>
+          <span class="home">
+            <a href="index.html"
+              ><img src="./icone/home.svg" alt="icone home" /></a
+          ></span>
+        </div>
+
+        <div class="sponsor-text">Sponsors Officiel</div>
+
+        <div class="sponsor-card">
+          <div class="card">
+            <img src="./sary/40.jpg" alt="logo Air Madagascar" />
+            <p class="card-text">Air Madagascar</p>
+          </div>
+          <div class="card">
+            <img src="./sary/41.jpg" alt="logo Madagascar Park" />
+            <p class="card-text">Madagascar Park</p>
+          </div>
+          <div class="card">
+            <img src="./sary/42.jpg" alt="logo Goto Madagascar" />
+            <p class="card-text">Goto Madagascar</p>
+          </div>
+          <div class="card">
+            <img src="./sary/43.jpg" alt="logo Atr Madagascar" />
+            <p class="card-text">Atr Madagascar</p>
+          </div>
+        </div>
+
+        <div class="sponsor-social">
+          <div class="social-bloc">
+            <img src="./sary/facebook.png" alt="logo facebook" />
+            <span>idee Voyage</span>
+          </div>
+          <div class="social-bloc">
+            <img src="./sary/twitter.png" alt="logo twitter" />
+            <span>VoyageTour</span>
+          </div>
+          <div class="social-bloc">
+            <img src="./sary/instagram.png" alt="logo instagram" />
+            <span>ideeVoyageMada</span>
+          </div>
+          <div class="social-bloc">
+            <img src="./sary/snapchat.png" alt="logo snapchat" />
+            <span>MadaTourVoyage</span>
+          </div>
+          <div class="social-bloc">
+            <img src="./sary/whatsapp.png" alt="logo whatsapp" />
+            <span>MalagasyTour</span>
+          </div>
+        </div>
+      </div>
+
+      <!-- <div class="exposition">
+        <div class="exposition-title">
+          <p>Exposition de l'ambiance</p>
+        </div>
+      </div> -->
+    </main>
+
+    <footer class="footer">
+      <div class="bloc-img">
+        <img
+          src="./sary/logoAG.png"
+          alt="logo Yael concepteur du site"
+          class="img"
+        />
+      </div>
+      <p class="signature">
+        <span class="copy">&copy;</span> Copyright 2022 by Dev.Mg
+      </p>
+    </footer>
+    <script src="./js/index.js"></script>
+  </body>
+</html>
